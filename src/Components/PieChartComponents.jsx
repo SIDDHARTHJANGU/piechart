@@ -13,14 +13,14 @@ const COLORS = ["green", "yellow", "red", "orange", "gray"];
 
 const PieChartComponents = () => {
   return (
-    <div className="w-80 h-80 mx-auto min-h-screen flex justify-center items-center">
+    <div className="w-80  h-80 mx-auto min-h-screen flex justify-center items-center">
       <PieChart width={400} height={400}>
         <Pie
           data={data}
           //   cx={200}
           //   cy={200}
           innerRadius={120}
-          outerRadius={200}
+          outerRadius={150}
           fill="#8884d8"
           paddingAngle={5}
           dataKey="value"
